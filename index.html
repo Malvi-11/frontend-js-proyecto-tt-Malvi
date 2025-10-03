@@ -3,15 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>Home</title>
   </head>
   <body>
-    <h1>clase de git</h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam id ex
-      repellat ad dolor , modi at quod, accusantium magnam quae sed magni,
-      aliquam maiores! Velit blanditiis voluptate harum nemo illo.
-    </p>
+    <header class="header">
+      <p class="header__log">
+        <un href="./index.html"> Tienda de Malvi </un>
+      </p>
+
+      <nav class="header_nav">
+        <ul>
+          <li>
+            <a href="./index.html"> Home</a>
+          </li>
+          <li>
+            <a href="./contacto.html"> Contacto </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo-home">Bienvenidos a la tienda de Malvi</h1>
+      <p class="parrafo-home">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, harum
+        sed magnam sit amet quaerat enim cupiditate consequatur nemo voluptates
+        atque provident ut vero. Impedit fugit sed illo beatae. Tenetur quos
+        libero facere enim unde. Necessitatibus quos numquam, amet deserunt
+        molestias totam exercitationem nam alias, ratione, deleniti
+        reprehenderit temporibus. Laborum.
+      </p>
+      <section class="productos-home">
+        <h2>Algunos de nuestros productos</h2>
+        <div class="contenedor-tarjetas">
+          <article class="tarjeta-producto">
+            <img src="./img/IMG-20251003-WA0003.jpg" alt="Mate clasico" />
+            <h3>Mate clasico</h3>
+            <p>Precio: $15000</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./img/IMG-20251003-WA0014.jpg" alt="Mate tallado" />
+            <h3>Mate tallado</h3>
+            <p>Precio: $15000</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./img/IMG-20251003-WA0007.jpg" alt="Mate y azucarera" />
+            <h3>Mate y azucarera</h3>
+            <p>Precio: $25000</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./img/IMG-20251003-WA0009.jpg" alt="Set de mate" />
+            <h3>Set de mate</h3>
+            <p>Precio: $30000</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Esta pagina la realizo Malvi</p>
+      <nav>
+        <ul>
+          <li>Instagram</li>
+          <li>Tiktok</li>
+          <li>Facebook</li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
