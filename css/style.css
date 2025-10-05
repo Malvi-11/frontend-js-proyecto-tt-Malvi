@@ -41,7 +41,7 @@ body {
   font-weight: bold;
 }
 .header__logo a {
-  color: #f7bb2b;
+  color: #ac945d;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .header__nav a {
-  color: #f7bb2b;
+  color: #e76872;
   text-decoration: none;
   display: inline-block;
   padding: 1rem;
@@ -73,7 +73,7 @@ body {
   background-color: #1d1a20;
 
   padding: 2rem;
-  color: #f7bb2b;
+  color: #a59162;
 
   /* hago flexibles al p y la nav */
   display: flex;
@@ -216,7 +216,7 @@ main .parrafo-home {
 }
 
 .form button {
-  background-color: #d21f3c;
+  background-color: #0ce64d;
   color: #e5e6e8;
   border: none;
   padding: 1rem;
