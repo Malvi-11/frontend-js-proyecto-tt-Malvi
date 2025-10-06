@@ -13,8 +13,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Saira Condensed", sans-serif;
-  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5rem;
   line-height: 1.5;
   background-color: #1f6064;
   color: #e4e7ee;
@@ -29,7 +29,7 @@ body {
   background-color: #1d1a20;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -41,19 +41,19 @@ body {
   font-weight: bold;
 }
 .header__logo a {
-  color: #ac945d;
+  color: #9464e2;
   text-decoration: none;
 }
 
-.header__nav {
+.header nav {
   padding: 1rem;
   margin-right: 2rem;
 }
 
-.header__nav ul {
+.header nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -178,7 +178,6 @@ main .parrafo-home {
 
   margin: 2rem auto;
 }
-
 .titulo-contacto {
   font-size: 4rem;
   text-align: center;
