@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Home</title>
   </head>
-  <body>
+  <enlazo>
     <header class="header">
       <p class="header__log">
         <un href="./index.html"> Tienda de Malvi </un>
@@ -24,6 +24,11 @@
           </li>
           <li>
             <a href="./pages/contacto.html"> Contacto </a>
+          </li>
+          <li> 
+            <a href="./pages/carrito.html" class="carrito-icono">
+              <span id="contador-carrito">0</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -40,8 +45,8 @@
       </p>
       <section class="productos-home">
         <h2>Algunos de nuestros productos</h2>
-        <div class="contenedor-tarjetas">
-          <article class="tarjeta-producto">
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+        <!--<article class="tarjeta-producto">
             <img src="./img/IMG-20251003-WA0003.jpg" alt="Mate clasico" />
             <h3>Mate clasico</h3>
             <p>Precio: $15000</p>
@@ -63,7 +68,7 @@
             <img src="./img/IMG-20251003-WA0009.jpg" alt="Set de mate" />
             <h3>Set de mate</h3>
             <p>Precio: $30000</p>
-          </article>
+          //</article> -->
         </div>
       </section>
     </main>
@@ -77,5 +82,7 @@
         </ul>
       </nav>
     </footer>
+    
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
