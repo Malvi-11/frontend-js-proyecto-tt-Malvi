@@ -1,4 +1,4 @@
-import { producto, productos } from "./productos.js";
+import { productos } from "./productos.js";
 import { agregarAlCarrito } from " ./funcionesCarrito.js ";
 import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js";
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tarjeta.classList.add("tarjeta-producto");
 
     const img = document.createElement("img");
-    img.src = producto.img;
+    img.src = `../${producto.img}`;
     img.alt = producto.nombre;
 
     const titulo = document.createElement("h3");
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     boton.addEventListener("click", () => {
       agregarAlCarrito(producto);
     });
+
     tarjeta.appendChild(img);
     tarjeta.appendChild(titulo);
     tarjeta.appendChild(precio);
