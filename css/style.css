@@ -89,10 +89,37 @@ body {
   justify-content: center;
   gap: 2rem; /* 20px */
 }
+.btn {
+  background-color: #d21f3c;
+  color: #e5e6e8;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+/*botones*/
 
-/* -------------------------------------------------------------------------- */
-/*                                    HOME                                    */
-/* -------------------------------------------------------------------------- */
+.btn:hover {
+  background-color: #b71c34;
+}
+
+.btn-eliminar-carrito {
+  background-color: #1d1a20;
+  border: 2px solid #d21f3c;
+}
+.btn-vaciar-carrito {
+  background-color: #f7bb2b;
+  color: #1d1a20;
+}
+.btn-vaciar-carrito:hover {
+  background-color: #e0aa24;
+}
+
+/* Home */
 
 main {
   width: 90%;
@@ -152,6 +179,7 @@ main .parrafo-home {
   align-items: center;
 
   /* separacion */
+
   gap: 1rem;
 }
 
@@ -167,11 +195,10 @@ main .parrafo-home {
 .tarjeta-producto img {
   width: 100%;
   border-radius: 0.5rem;
+  object-fit: cover;
 }
 
-/* -------------------------------------------------------------------------- */
-/*                                  Contacto                                  */
-/* -------------------------------------------------------------------------- */
+/* contacto */
 
 .seccion-contacto {
   width: 100%;
@@ -224,10 +251,18 @@ main .parrafo-home {
   border-radius: 0.5rem;
   cursor: pointer;
 }
+/*carrito*/
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
 
-/* -------------------------------------------------------------------------- */
-/*                                media queries                               */
-/* -------------------------------------------------------------------------- */
+/* media queries */
+
 @media (max-width: 768px) {
   .header {
     display: flex;
