@@ -160,17 +160,21 @@ main .parrafo-home {
 
 .contenedor-tarjetas,
 #contenedor-carrito {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  display: flex; /* activa flexbox */
+  flex-direction: row; /* los coloca en fila horizontal */
+  flex-wrap: wrap; /* si no entran, bajan a otra línea */
+  justify-content: center; /* centra horizontalmente */
+  align-items: flex-start; /* alinea arriba */
+  gap: 2rem; /* espacio entre tarjetas */
+  padding: 2rem;
 }
-· .tarjeta-producto {
+.tarjeta-producto {
   background-color: #1d1a20;
   padding: 1rem;
   border-radius: 1rem;
   width: 30rem;
   padding-bottom: 2rem;
+  text-align: center;
 
   /* hacemos flexibles los elementos del article */
   /* los colocamos en columna y centrados */
@@ -194,6 +198,7 @@ main .parrafo-home {
 
 .tarjeta-producto img {
   width: 100%;
+  height: 200px;
   border-radius: 0.5rem;
   object-fit: cover;
 }
