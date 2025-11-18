@@ -8,7 +8,6 @@
 html {
   /* Sin congiguracion el rem vale: */
   /* 1rem = 16px */
-
   /* Para que 1 rem = 10px */
   font-size: 62.5%;
 }
@@ -29,7 +28,7 @@ body {
   background-color: #1d1a20;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -45,15 +44,15 @@ body {
   text-decoration: none;
 }
 
-.header nav {
+.header__nav {
   padding: 1rem;
   margin-right: 2rem;
 }
 
-.header nav ul {
+.header__nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -89,6 +88,7 @@ body {
   justify-content: center;
   gap: 2rem; /* 20px */
 }
+/*botones*/
 .btn {
   background-color: #d21f3c;
   color: #e5e6e8;
@@ -101,7 +101,6 @@ body {
   text-decoration: none;
   text-align: center;
 }
-/*botones*/
 
 .btn:hover {
   background-color: #b71c34;
@@ -159,18 +158,19 @@ main .parrafo-home {
   margin: 3rem;
 }
 
-.contenedor-tarjetas {
+.contenedor-tarjetas,
+#contenedor-carrito {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
-
-.tarjeta-producto {
+· .tarjeta-producto {
   background-color: #1d1a20;
   padding: 1rem;
   border-radius: 1rem;
   width: 30rem;
+  padding-bottom: 2rem;
 
   /* hacemos flexibles los elementos del article */
   /* los colocamos en columna y centrados */
